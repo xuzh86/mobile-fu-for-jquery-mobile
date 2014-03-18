@@ -14823,6 +14823,7 @@ $.widget( "ui.tabs", {
 		var that = this;
 		return {
 			url: anchor.attr( "href" ),
+			headers: { "jqm-Ajax-Request": true },
 			beforeSend: function( jqXHR, settings ) {
 				return that._trigger( "beforeLoad", event,
 					$.extend( { jqXHR : jqXHR, ajaxSettings: settings }, eventData ) );
