@@ -9,7 +9,7 @@ of the request from :html to :mobile or :tablet.
 Installation
 ------------
 
-Simply add `gem 'mobile-fu'` to your Gemfile and run bundle install.
+Simply add `gem 'mobile-fu-for-jquery-mobile'` to your Gemfile and run bundle install.
 
 Usage
 -----
