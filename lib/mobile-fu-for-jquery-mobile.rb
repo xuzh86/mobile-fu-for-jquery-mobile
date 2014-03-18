@@ -39,7 +39,7 @@ module ActionController
 
     module ClassMethods
 
-      # Add this to one of your controllers to use MobileFu.
+      # Add this to one of your controllers to use MobileFuForJqueryMobile.
       #
       #    class ApplicationController < ActionController::Base
       #      has_mobile_fu
@@ -155,7 +155,7 @@ module ActionController
       # the device making the request is matched to a device in our regex.
 
       def is_tablet_device?
-        ::MobileFu::Tablet.is_a_tablet_device? request.user_agent
+        ::MobileFuForJqueryMobile::Tablet.is_a_tablet_device? request.user_agent
       end
 
       def is_mobile_device?

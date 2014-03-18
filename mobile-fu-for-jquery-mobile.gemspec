@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.rubyforge_project = "mobile-fu-for-jquery-mobile"
 
-  s.files         = FileList['lib/**/*.rb', '[A-Z]*'].to_a
+  s.files         = `git ls-files`.split($/) #FileList['lib/**/*.rb', '[A-Z]*', 'app/**/*'].to_a
   s.test_files    = FileList['test/*.rb'].to_a
   s.executables   = [ ]
   s.require_path  = 'lib'
