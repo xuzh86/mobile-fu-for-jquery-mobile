@@ -156,9 +156,8 @@ class ApplicationController < ActionController::Base
 end
 ```
 
---------------------------
-
 jQuery Mobile for Rails
+---
 
 This gem vendors the jQuery Mobile assets for Rails 3.1 and greater. The files will be added to the asset pipeline and available for you to use.
 
