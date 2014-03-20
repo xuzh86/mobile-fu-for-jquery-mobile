@@ -1,10 +1,12 @@
-Mobile Fu
+Mobile Fu Jquery Mobile
 =========
 
 Want to automatically detect mobile devices that access your Rails application?
 Mobile Fu allows you to do just that.  People can access your site from a Palm,
 Blackberry, iPhone, iPad, Nokia, etc. and it will automatically adjust the format
 of the request from :html to :mobile or :tablet.
+
+Jquery Mobile version is 1.4.2 included.
 
 Installation
 ------------
