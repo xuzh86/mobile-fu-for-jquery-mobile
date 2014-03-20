@@ -8,6 +8,8 @@ of the request from :html to :mobile or :tablet.
 
 Jquery Mobile version is 1.4.2 included.
 
+When using [mobile,tablet] jquery mobile ajax request, format is still html was sloved.  
+
 Installation
 ------------
 
@@ -170,13 +172,13 @@ jQuery Mobile
 You can then include it in your app by adding the following to your javascript file:
 
 ```javascirpt
-//= require jquery.mobile
+//= require mobile.fu.jquery.mobile
 ```
 
 And to the css file:
 
 ```css
- *= require jquery.mobile
+ *= require mobile.fu.jquery.mobile
 ```
 The gem is Rails 4 compatible from version 1.3.2.1 and up.
 
